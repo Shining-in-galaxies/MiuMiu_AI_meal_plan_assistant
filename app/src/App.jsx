@@ -16,7 +16,7 @@ import {
   TypingIndicator,
 } from "@chatscope/chat-ui-kit-react";
 
-const API_KEY = "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";
+const API_KEY = "put your api key here";
 const systemMessage = {
   role: "system",
   content:
@@ -111,11 +111,12 @@ function App() {
           <img src={miumiuLogo} alt="Miu Miu" className="logo" />
           <h1>Chat with</h1>
           <h2>Miu Miu</h2>
-          <div className="wavy-header">
-            Better Meal plan, Better new Life!
-            {/* SVG remains unchanged, as it's compatible with JSX */}
-          </div>
         </div>
+        <div className="wavy-header">
+          Better Meal plan, Better new Life!
+          {/* SVG remains unchanged, as it's compatible with JSX */}
+        </div>
+
         <MainContainer>
           <ChatContainer>
             <MessageList
@@ -132,21 +133,18 @@ function App() {
           </ChatContainer>
         </MainContainer>
         <div className="chat-footer">
-          <img src={adobeIcon} alt="Adobe Icon" className="ai_button" />
           <img
             src={womanChefIcon}
             alt="WomanChef Icon"
             className="footer-icon2"
           />
           <img src={manChefIcon} alt="ManChef Icon" className="chef_icon" />
-          <div className="powered-by">
-            <img
-              src={poweredByIcon}
-              alt="Powered By"
-              className="powered-icon"
-            />
-            <img src={sfubIcon} alt="SFBU" className="sfub-icon" />
-          </div>
+        </div>
+        <div className="powered-by">
+          <img src={poweredByIcon} alt="Powered By" className="powered-icon" />
+          <img src={adobeIcon} alt="Adobe Icon" className="ai_button" />
+
+          <img src={sfubIcon} alt="SFBU" className="sfub-icon" />
         </div>
       </div>
     </div>

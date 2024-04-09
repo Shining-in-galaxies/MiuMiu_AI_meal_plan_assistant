@@ -30,9 +30,27 @@ body {
   min-height: 100vh;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+.chat-header h1 {
+  position: relative;
+  font-size: 2.5em;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  left: -10%;
+  top: -14vh;
+  letter-spacing: 0.1em;
+  font-weight: bolder;
+}
+
+.chat-header h2 {
+  position: relative;
+  font-size: 3em;
+  color: #fff;
+  left: 10%;
+  top: -20vh;
+  color: #f6f9ff;
+  font-family: "Courier New", Courier, monospace;
+  letter-spacing: 0.1em;
+  font-weight: bolder;
 }
 
 button {
