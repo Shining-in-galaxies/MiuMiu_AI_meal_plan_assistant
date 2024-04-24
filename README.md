@@ -2,6 +2,10 @@
 
 Welcome to MiuMiu, your next-generation personal meal plan assistant designed to make meal planning simple, personalized, and fun! Utilizing the @chatscope/chat-ui-kit-react for a seamless chat interface, MiuMiu offers users a unique way to discover meal plans and grocery lists tailored to their dietary preferences and needs.
 
+## Screenshot
+
+![Screenshot of MiuMiu interface](Screenshot.png)
+
 ## Features
 
 - **Personalized Meal Planning**: Get a 7-day meal plan that matches your cuisine preferences, protein types, and diet.
@@ -50,10 +54,6 @@ After installation, run the application by following these steps:
    ```
 
 This will start the application and open it in your default web browser.
-
-## Screenshots
-
-![Screenshot of MiuMiu interface](Screenshot.png)
 
 ## Technology Stack
 
