@@ -1,6 +1,6 @@
 # MiuMiu - Your Personal Meal Plan Assistant
 
-Welcome to MiuMiu, your next-generation personal meal plan assistant designed to make meal planning simple, personalized, and fun! Based on the robust React framework and utilizing the @chatscope/chat-ui-kit-react for a seamless chat interface, MiuMiu offers users a unique way to discover meal plans and grocery lists tailored to their dietary preferences and needs.
+Welcome to MiuMiu, your next-generation personal meal plan assistant designed to make meal planning simple, personalized, and fun! Utilizing the @chatscope/chat-ui-kit-react for a seamless chat interface, MiuMiu offers users a unique way to discover meal plans and grocery lists tailored to their dietary preferences and needs.
 
 ## Features
 
@@ -27,31 +27,38 @@ Ensure you have Node.js and npm installed on your machine. If you don't have the
 2. Install NPM packages
    ```sh
    npm create vite@latest app -- -- react
-   ```
-   ```sh
    npm install
-   ```
-   ```sh
    npm install @chatscope/chat-ui-kit-react
    ```
-3. Enter your [OpenAI API key](https://beta.openai.com/account/api-keys) in `app.jsx`
-   ```jsx
-   const API_KEY = "ENTER YOUR API KEY";
+3. Enter your [OpenAI API key](https://beta.openai.com/account/api-keys) in the `.env` file:
+   ```
+   API_KEY=ENTER YOUR API KEY
    ```
 
 ### Running the Application
 
-After installation, you can run the application locally:
+After installation, run the application by following these steps:
 
-```sh
-npm run dev
-```
+1. Start the front-end:
+   ```sh
+   npm run dev
+   ```
+2. In another terminal, navigate to the backend directory and start the back-end:
+   ```sh
+   cd backend
+   npm start
+   ```
 
 This will start the application and open it in your default web browser.
+
+## Screenshots
+
+![Screenshot of MiuMiu interface](Screenshot.png)
 
 ## Technology Stack
 
 - **Frontend Framework**: React
+- **Backend Technology**: Node.js
 - **UI Toolkit**: @chatscope/chat-ui-kit-react
 - **OpenAI API**: Natural language processing and generation.
 
